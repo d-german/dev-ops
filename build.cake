@@ -1,6 +1,6 @@
 var target = Argument("target", "Test");
 var configuration = Argument("configuration", "Release");
-var solutionFolder = "./";
+var solutionFolder = "./DevOps/DevOps.sln";
 
 Task("Restore")
     .Does(() =>
